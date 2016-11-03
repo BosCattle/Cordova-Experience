@@ -19,5 +19,6 @@
     <orderEntry type="library" name="jquery-1.9.1" level="application" />
     <orderEntry type="library" name="zepto" level="application" />
     <orderEntry type="library" name="sm" level="application" />
+    <orderEntry type="library" name="??sm.js,sm-extend" level="application" />
   </component>
 </module>
