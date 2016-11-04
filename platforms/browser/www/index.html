@@ -41,6 +41,8 @@
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/??sm.min.css,sm-extend.min.css">
     <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/??sm.min.js,sm-extend.min.js' charset='utf-8'></script>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <title>Hello World</title>
 </head>
 <body>
@@ -51,6 +53,24 @@
         </a>
         <h1 class="title">我的生活</h1>
     </header>
+    <nav class="bar bar-tab">
+        <a class="tab-item active" href="#">
+            <span class="icon icon-home"></span>
+            <span class="tab-label">首页</span>
+        </a>
+        <a class="tab-item" href="#">
+            <span class="icon icon-me"></span>
+            <span class="tab-label">我</span>
+        </a>
+        <a class="tab-item" href="#">
+            <span class="icon icon-star"></span>
+            <span class="tab-label">收藏</span>
+        </a>
+        <a class="tab-item" href="#">
+            <span class="icon icon-settings"></span>
+            <span class="tab-label">设置</span>
+        </a>
+    </nav>
     <div class="content">
         <div class="content-block-title">曲目</div>
         <div class="list-block media-list">
@@ -123,7 +143,5 @@
         </div>
         </div>
     </div>
-<script type="text/javascript" src="cordova.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
