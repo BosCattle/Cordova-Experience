@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline';">-->
+    <!--<meta http-equiv="X-XSS-Protection" content="0">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
+    <!--<meta name="format-detection" content="telephone=no">-->
+    <!--<meta name="msapplication-tap-highlight" content="no">-->
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+    <!--<link rel="stylesheet" href="http://g.alicdn.com/msui/sm/0.6.2/css/sm.css">-->
+    <!--<link rel="stylesheet" href="http://g.alicdn.com/msui/sm/0.6.2/css/sm-extend.css">-->
+    <link rel="stylesheet" href="css/sm.css">
+    <link rel="stylesheet" href="css/sm-extend.css">
+    <link rel="stylesheet" type="text/css" href="css/tab.css">
+    <title>Hello World</title>
+</head>
+<body>
+<header class="bar bar-nav">
+    <h1 class='title'>标签页</h1>
+</header>
+<div class="content">
+    <div class="buttons-tab">
+        <a href="#tab1" class="tab-link active button">今天</a>
+        <a href="#tab2" class="tab-link button">明天</a>
+        <a href="#tab3" class="tab-link button">后天</a>
+    </div>
+    <nav class="bar bar-tab">
+        <a class="tab-item" href="index.html">
+            <span class="icon icon-home"></span>
+            <span class="tab-label">首页</span>
+        </a>
+        <a class="tab-item  open-preloader" href="mine.html">
+            <span class="icon icon-me"></span>
+            <span class="tab-label">我</span>
+        </a>
+        <a class="tab-item active" href="tab.html">
+            <span class="icon icon-star"></span>
+            <span class="tab-label">标签</span>
+        </a>
+        <a class="tab-item" href="#">
+            <span class="icon icon-settings"></span>
+            <span class="tab-label">设置</span>
+        </a>
+    </nav>
+    <div class="content-block">
+        <div class="tabs">
+            <div id="tab1" class="tab active">
+                <div class="content-block">
+                    <div class="button-block">
+                        <p><a href="#" id="gallery" class="button button-fill button-big">点我打开相册</a> </p>
+                        <p><a href="#" id="camera" class="button button-fill button-big">点我照相</a> </p>
+                    </div>
+                </div>
+            </div>
+            <div id="tab2" class="tab">
+                <div class="content-block">
+                    <p>This is tab 2 content</p>
+                </div>
+            </div>
+            <div id="tab3" class="tab">
+                <div class="content-block">
+                    <p>This is tab 3 content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.0.0.js"></script>
+<script src="js/jquery.mobile-1.4.5.js"></script>
+<!--<script type='text/javascript' src='http://g.alicdn.com/sj/lib/zepto/zepto.js' charset='utf-8'></script>-->
+<!--<script type='text/javascript' src='http://g.alicdn.com/msui/sm/0.6.2/js/sm.js' charset='utf-8'></script>-->
+<script type="text/javascript" src="js/zepto.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/sm.js" charset="utf-8"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/tab.js"></script>
+</body>
+</html>

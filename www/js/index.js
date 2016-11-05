@@ -21,6 +21,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+
     },
 
     // deviceready Event Handler
@@ -29,6 +30,11 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+        console.log(navigator.camera);
+        navigator.splashscreen.show();
+        window.setTimeout(function () {
+            navigator.splashscreen.hide();
+        }, splashDuration - fadeDuration);
     },
 
     // Update DOM on a Received Event
