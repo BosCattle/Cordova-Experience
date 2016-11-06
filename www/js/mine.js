@@ -15,13 +15,12 @@ $(document).ready(function () {
             var divHead = $("<div></div>").addClass('list-block media-list');
             var ulElement = $("<ul></ul>");
             var liElement = $("<li></li>");
-            var aElement = $("<a></a>").addClass('item-link item-content');
-            aElement.href="#";
+            var aElement = $("<a href='../www/mine.html'></a>").addClass('item-link item-content');
             var imageElement = $("<div></div>").addClass('item-media');
             var imageChild = $("<img/>");
             imageChild.attr("src",jsonElement.image);
-            imageChild.css("width","100px");
-            imageChild.css("height","100px");
+            imageChild.css("width","200px");
+            imageChild.css("height","200px");
             var lastContainer = $("<div></div>").addClass('item-inner');
             var divTitleRole = $("<div></div>").addClass('item-title-row');
             var divTitle = $("<div></div>").addClass('item-title').text(jsonElement.title);
