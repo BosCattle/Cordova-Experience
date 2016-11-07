@@ -5,7 +5,7 @@
 $(document).ready(function () {
     $.showPreloader();
     console.log("妈的智障");
-    $.get("http://192.168.3.4:8080/test/image.action", function (data, status) {
+    $.get("http://192.168.191.4:8080/test/image.action", function (data, status) {
         var mineJson = JSON.parse(data.toString());
         // 循环更新数据
         $.toast("数据加载成功,总共"+mineJson.length+"条");
